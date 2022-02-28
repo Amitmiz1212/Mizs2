@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Mizs.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Miz's</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body bgcolor ="#faebd7">
+    <img src ="https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png" height ="90" width ="1950" />
+    <center> <h1><u>Miz's</u></h1>
+        <table border ="5">
+            <tr> <td> <ins> <a href ="WebForm5.aspx"> אודות</a></ins></td>
+             <td> <ins> <a href ="WebForm4.aspx"> מנהל</a></ins></td>
+             <td> <ins> <a href ="WebForm3.aspx">מתכונים </a></ins></td>
+             <td> <ins> <a href ="WebForm2.aspx"> הרשמה</a></ins></td>
+             <td> <ins> <a href ="WebForm1.aspx"> דף הבית</a></ins></tr>
+        </table>
+    </center>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+</body>
+</html>
